@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <style>
+        body,
+        h1,
+        h2,     
+        h3,
+        h4,
+        h5 {
+            font-family: "Raleway", sans-serif
+        }
+
+        body {
+            margin: 0;
+            overflow-x: hidden;
+            background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+        }
+
+        html {
+            background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+        }
+    </style>
+
+<div class="topnav" id="myTopnav">
+    <a href="/index.html" class="active" title="home">Home</a>
+
+
+    
+
+        <div class="dropdown-content mega-menu animate">
+            <ul>
+                <a href="/index.html" class = "active" title="home">Home</a>
+                <a href="action.html" title="action">Action</a>
+                <a href="adventure.html" title="adventure">Adventure</a>
+                <a href="comedy.html" title="comedy">Comedy</a>
+                <a href="drama.html" title="drama">Drama</a>
+                <a href="horror.html" title="horror">Horror</a>
+                <a href="thriller.html" title="thriller">Thriller</a>
+                <a href="science.html" title="science">Sci-Fi</a>
+
+            </ul>
+
+        </div>
+
+
+    </div>
+    <div class="container">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
+
+</html>
